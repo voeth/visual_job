@@ -1,0 +1,18 @@
+{% extends 'base.html' %}  #与entry.html类似，这个模板也继承了基模板，另外为名为"body"的块提供了一个替代块
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>You submitted the following data:</p>
+<table>
+<tr><td>Phrase:</td><td>{{ the_phrase }}</td></tr>
+<tr><td>Letters:</td><td>{{ the_letters }}</td></tr>
+</table>
+
+
+<p>When "{{the_phrase }}" is searched for "{{ the_letters }}", the following
+results are returned:</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}

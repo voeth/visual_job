@@ -1,0 +1,24 @@
+{% extends 'base.html' %} #这个模板继承了基模板，为名为"body"的块提供了一个替代块
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/search4'>
+<table>
+
+<p>搜索你心仪的岗位吧:</p>
+     <div>
+        <form action="#">
+          <input type="text" class="search-text" placeholder="搜索工作岗位">
+          <a href="#" class="search-btn sprite_icon"></a>
+        </form>
+      </div>
+
+
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
