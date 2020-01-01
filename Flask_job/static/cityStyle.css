@@ -20,3 +20,8 @@
 
 #js_provCitys{position:absolute; top:33px; left:-15px; z-index:99999; width:410px; background:#fff; border:1px solid #d8d8d8; *zoom:1; padding:0; padding-top:10px; margin:0;}
 .provence span{display:block; height:100%; border:1px solid #fafafa; background:#fafafa; padding:0 10px; width:40px;}
+#header .menu {
+	height: 48px;
+	width: 1268px;
+	position: fixed;
+}

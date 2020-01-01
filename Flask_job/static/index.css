@@ -26,10 +26,10 @@
   font-size: 14px;
 }
 .search-btn {
-	float: left;
-	position: absolute;
+	float: right;
+	position: fixed;
+	top: 40px;
 	right: -3px;
-	top: 86px;
 }
 
 
