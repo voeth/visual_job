@@ -1,0 +1,38 @@
+{
+    "salary": [
+        "12-20K",
+        "5-10K",
+        "5-6K",
+        "5-6K",
+        "5-10K",
+        "5-10K",
+        "5-10K"
+    ],
+    "jobName": [
+        "\u5927\u6570\u636e\u8bb2\u5e08",
+        "APP\u63a8\u5e7f",
+        "\u5b9e\u4e60\u751f",
+        "\u7269\u6d41\u4e13\u5458",
+        "\u5ba2\u6237\u7ecf\u7406",
+        "BD\u63a8\u5e7f",
+        "\u9500\u552e\u4e13\u5458"
+    ],
+    "education": [
+        "\u672c\u79d1",
+        "\u5927\u4e13",
+        "\u5927\u4e13",
+        "\u5927\u4e13",
+        "\u672c\u79d1",
+        "\u5927\u4e13",
+        "\u5927\u4e13"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650"
+    ]
+}

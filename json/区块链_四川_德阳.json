@@ -1,0 +1,54 @@
+{
+    "salary": [
+        "3-8K",
+        "3-8K",
+        "3-8K",
+        "3-6K",
+        "5-10K",
+        "2-3K",
+        "3-8K",
+        "3-8K",
+        "3-8K",
+        "3-8K",
+        "35-40K"
+    ],
+    "jobName": [
+        "\u7f51\u7edc\u5ba2\u670d-\u533a\u5757\u94fe\u8d22\u7ecf\u5a92\u4f53",
+        "\u6bd4\u7279\u5e01\u5206\u6790\u5e08-\u533a\u5757\u94fe\u8d22\u7ecf\u5a92\u4f53",
+        "\u533a\u5757\u94fe\u8d22\u7ecf\u5a92\u4f53\u62db\u8058\u7f16\u8f91",
+        "\u5ba2\u670d\u4e13\u5458/\u52a9\u7406",
+        "\u7f51\u7edc\u63a8\u5e7f",
+        "\u81ea\u5a92\u4f53\u8fd0\u8425\u53ca\u63a8\u5e7f\u7b56\u5212\u7684\u4eba\u624d",
+        "\u4ea7\u54c1\u63a8\u5e7f\u7ecf\u7406",
+        "\u7f51\u7edc\u5ba2\u670d\u4eba\u5458\u53ca\u5fae\u4fe1\u8fd0\u8425",
+        "\u7f51\u7edc\u9500\u552e\u3001\u793e\u7fa4\u8fd0\u8425",
+        "\u8d22\u7ecf\u81ea\u5a92\u4f53-\u516c\u4f17\u53f7\u4e3b\u7f16",
+        "\u5e02\u573a\u63a8\u5e7f"
+    ],
+    "education": [
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u672c\u79d1",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u4e2d\u4e13/\u4e2d\u6280",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u9ad8\u4e2d"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1-3\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1\u5e74\u4ee5\u5185"
+    ]
+}

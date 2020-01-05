@@ -1,0 +1,22 @@
+{
+    "salary": [
+        "3-4K",
+        "5-10K",
+        "2-6K"
+    ],
+    "jobName": [
+        "\u5e7f\u544a\u8bbe\u8ba1\u5e08",
+        "\u7ebf\u4e0b\u9500\u552e",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08"
+    ],
+    "education": [
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5927\u4e13",
+        "\u5b66\u5386\u4e0d\u9650"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u5e94\u5c4a\u751f"
+    ]
+}

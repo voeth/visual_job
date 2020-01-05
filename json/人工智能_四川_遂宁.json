@@ -1,0 +1,54 @@
+{
+    "salary": [
+        "3-4K",
+        "3-8K",
+        "4-8K",
+        "3-8K",
+        "3-6K",
+        "3-6K",
+        "3-6K",
+        "2-4K",
+        "3-5K",
+        "3-8K",
+        "3-4K"
+    ],
+    "jobName": [
+        "\u7cbe\u901acdr  ps   ai   cad \u5e7f\u544a\u8bbe\u8ba1\u7b49",
+        "\u5e73\u9762\u8bbe\u8ba1\u5236\u4f5c",
+        "\u8bed\u6587\u6559\u5e08",
+        "\u8bda\u8058\u6570\u5b66\u8001\u5e08",
+        "\u82f1\u8bed\u8001\u5e08",
+        "\u62db\u751f\u987e\u95ee",
+        "\u6559\u52a1\u4e3b\u7ba1",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08",
+        "\u8bbe\u8ba1\u5236\u4f5c",
+        "\u5bb6\u88c5\u8bbe\u8ba1\u5e08",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08"
+    ],
+    "education": [
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u672c\u79d1",
+        "\u672c\u79d1",
+        "\u5927\u4e13",
+        "\u5927\u4e13",
+        "\u9ad8\u4e2d",
+        "\u672c\u79d1",
+        "\u9ad8\u4e2d",
+        "\u4e2d\u4e13/\u4e2d\u6280",
+        "\u5927\u4e13",
+        "\u5b66\u5386\u4e0d\u9650"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1-3\u5e74",
+        "1-3\u5e74",
+        "1-3\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1-3\u5e74",
+        "1-3\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1-3\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650"
+    ]
+}

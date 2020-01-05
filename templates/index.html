@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到求职宝</title>
+    <link href='/static/index.css' rel="stylesheet" media="screen">
+    <link href='/static/bootstrap/css/bootstrap.css' rel="stylesheet" media="screen">
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/jquery.js"></script>
+</head>
+<body>
+    <form action="/visual" method="POST" class='form'>
+        <div class='panel panel-default'>
+            <div class= 'panel-heading'>爬取了boss直聘的全国招聘数据，生成922份json文档，只为你提供求职信息可视化！</div>
+            <div class= 'panel-heading'>请选择一或两个职位，可查看学历、薪资、经验要求等可视化数据</div>
+            <div class="row panel-body">
+                <label class="col-md-1">
+                <input type="checkbox" value="大数据" name='checkbox[0]' onClick="onCheckBox(this);" /> 大数据</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="云计算" name='checkbox[1]' onClick="onCheckBox(this);" /> 云计算</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="人工智能" name='checkbox[2]' onClick="onCheckBox(this);"/> 人工智能</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="区块链" name='checkbox[3]' onClick="onCheckBox(this);"/> 区块链</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="物联网" name='checkbox[4]' onClick="onCheckBox(this);" /> 物联网</label>
+                <input type='submit' value='提交' class="btn btn-success btn-lg">
+
+            </div> 
+        </div>
+    </form>
+    <div class="panel panel-primary">
+        <h3>
+        每组地图都有每个职业的各省职位数量与最低薪资水平，从五组地图来看，北京与上海都有很大的职位需求也有很高的薪资水平
+        </h3>
+        <h3>
+        从纵向来看，区块链在各个省份的工资都比较高，相比来看人工智能的工资偏低，但是人工智能的岗位需求又比较大。从岗位数量来看，作为中部地区的陕西省，互联网岗位需求都比较大，可以看出互联网产业正在陕西省快速发展，互联网人才空缺较大
+        </h3>
+    </div>
+    <div class='row'> 
+        {% for cc in chart %} 
+        <!-- 遍历完当前元素后，才会渲染下一个，否则会重复渲染同一个 -->
+            
+            {% for c in cc %}
+                <div class='col-md-6' style='margin-bottom:30px'>{{ c }}</div>    
+            {% endfor %}
+        {% endfor %}
+    </div>  
+ 
+
+    
+</body>
+</html>

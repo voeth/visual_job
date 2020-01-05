@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>查看结果</title>
+    <link href='/static/index.css' rel="stylesheet" media="screen">
+    <link href='/static/bootstrap/css/bootstrap.css' rel="stylesheet" media="screen">
+    <link href='/static/canvas.css' rel='stylesheet' media='screen'>
+    <script src="/static/checkbox.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/jquery.js"></script>
+</head>
+<body>
+    <form action="/visual" method="POST" class='form'>
+        <div class='panel panel-default'>
+            <div class= 'panel-heading'>爬取了boss直聘的全国招聘数据，生成922份json文档，只为你提供求职信息可视化！</div>
+            <div class= 'panel-heading'>
+                请选择一或两个职位，可查看学历、薪资、经验要求等可视化数据&nbsp;&nbsp;&nbsp;
+                <a href='/'>
+                <div class="btn btn-success btn-lg">查看各省岗位数量和薪资水平</div>
+                </a>
+            </div>
+            <div class="row panel-body">
+                <label class="col-md-1">
+                <input type="checkbox" value="大数据" name='checkbox[0]' onClick="onCheckBox(this);" /> 大数据</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="云计算" name='checkbox[1]' onClick="onCheckBox(this);" /> 云计算</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="人工智能" name='checkbox[2]' onClick="onCheckBox(this);"/> 人工智能</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="区块链" name='checkbox[3]' onClick="onCheckBox(this);"/> 区块链</label>
+
+                <label class="col-md-1">
+                <input type="checkbox" value="物联网" name='checkbox[4]' onClick="onCheckBox(this);" /> 物联网</label>
+
+
+                <input type='submit' value='提交' class="btn btn-success btn-lg">
+                
+            </div> 
+        </div>
+    </form>
+    
+    
+    <div class='container-fluid row'>
+        <div class='row'>
+            <div class='{{ c1 }}'>{{ wordCloud1 }}</div>
+            <div class='{{ c2 }}'>{{ wordCloud2 }}</div>
+        </div>
+        <div class='panel'>
+            
+            <div class='panel-heading'>岗位描述-词云图：</div>
+            <div class='panel-body'>
+                用词云来绘制每个岗位的描述词，需要注意的是受限于词云的画布尺寸，还有很多数量很少的词语没有绘制出来，所以有些关键词虽然很大，但是还要关注该词语的数量与整体基数，才能说明该岗位的大部分描述。\n让人新奇的是，人工智能岗位描述以设计、美工居多，工作经验也不高，所以说明企业对于人工智能岗位的要求不高。而且相比于其它4个岗位，企业对于大数据岗位的描述是最丰富多样的，说明企业对于大数据岗位的认知比较宽泛或者是技能需求多样，不同于云计算与人工智能的岗位认知那么固定，技能需求比较集中。
+            </div>
+        </div>
+        
+        
+        <div class='row'>
+            <div class='{{ c1 }}'>{{ sa1_bar }}</div>
+            <div class='{{ c2 }}'>{{ sa2_bar }}</div>
+        </div>
+        <div class='panel'>
+            <div class='panel-heading'>最低薪资平均水平-条形图：</div>
+            <div class='panel-body'>
+                根据19年税法所实施的个人全年应纳税所得额表，换算成月然后截取每个薪资数据范围的最低薪资，再对所有薪资数据进行分组归类。这五个岗位的最低薪资水平多数都在3-12k的范围。相比其它4个岗位而言，云计算的薪资最高
+            </div>
+        </div>
+
+        <div class='row'>
+            <div class='{{ c1 }}'>{{ pie1 }}</div>
+            <div class='{{ c2 }}'>{{ pie2 }}</div>
+        </div>
+        <div class='panel'>
+            <div class='panel-heading'>学历要求-饼状图</div>
+            <div class='panel-body'>
+                统计了全国各省对于该岗位的学历要求，基本上都是本科、大专、学历不限的学历要求居多，硕士和博士只是小部分而已，说明互联网IT岗位的学历要求不高。
+            </div>
+        </div>
+
+
+        <div class='row'>
+            <div class='{{ c1 }}'>{{ ex1_bar }}</div>
+            <div class='{{ c2 }}'>{{ ex2_bar }}</div>
+        </div>
+        <div class='panel'>
+            <div class='panel-heading'>工作经验-条形图</div>
+            <div class='panel-body'>
+                虽然这5个互联网IT岗位的对学历的要求不高，但是多数企业还是有1-3、3-5年的工作经验要求。相比学历，企业招聘更看重的是实践经验。比较新奇的是人工智能物联网对工作经验要求多数是经验不限，要求低，但是工资又比较低最低工资3k以下与3-12k之间的居多
+            </div>
+        </div>        
+        
+    </div>
+</body>
+</html>

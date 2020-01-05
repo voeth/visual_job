@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+    <head>
+        <title>{{ the_title }}</title>
+            <link rel="stylesheet" href="../static/citySelect.css" />
+            <link rel="stylesheet" href="../static/cityStyle.css" />
+            <link rel="stylesheet" href="../static/index.css" />
+            <link rel="stylesheet" href="../static/reset.css" />
+            <link rel="stylesheet" href="../static/bootstrap.css" />
+
+<style>
+*{margin: 0;padding: 0;}
+#container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+#output {
+	width: 100%;
+	height: 100%;
+}
+.color{
+	width: 120px;
+	height: 20px;
+	margin: 0 auto;
+	position: fixed;
+	left: 50%;
+	margin-left: -60px;
+	bottom: 20px;
+}
+.color li{
+	float: left;
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	box-shadow: 0 0 4px #FFF;
+	list-style: none;
+	cursor: pointer;
+}
+.color li:nth-child(1){
+	background: #002c4a;
+}
+.color li:nth-child(2){
+	background: #35ac03;
+}
+.color li:nth-child(3){
+	background: #ac0908;
+}
+.color li:nth-child(4){
+	background: #18bbff;
+}
+</style>
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="../static/vector.js"></script>
+<script>
+$(function(){
+	// 初始化 传入dom id
+	var victor = new Victor("container", "output");
+	var theme = [
+			["#002c4a", "#005584"],
+			["#35ac03", "#3f4303"]
+		]
+	$(".color li").each(function(index, val) {
+		var color = theme[index];
+		 $(this).mouseover(function(){
+			victor(color).set();
+		 })
+	});
+});
+</script>
+    </head>
+    <body>
+    <div id="container"><div id="output"></div></div>
+    <header class="header" id="header"><div id="container"><div id="output"></div></div>
+    <div class="header-bg"></div>
+    <div class="header-top">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="#" class="item item-cur">我的简历</a>
+          <a href="#" class="item">求职</a>
+          <a href="#" class="item new-icon">招聘<i></i></a>
+          <a href="#" class="item">实习</a>
+          <a href="#" class="nav-more"></a>
+          <div class="nav-more__hover">
+            <div class="wrapper">
+              <div class="top-part">
+                <a href="#">移动应用</a>
+                <a href="#">采集工具</a>
+                <a href="#">招聘</a>
+              </div>
+              <div class="middle-part">
+                <a href="#">UI/UX</a>
+                <a href="#">平面</a>
+                <a href="#">插画/漫画</a>
+                <a href="#">家居/家装</a>
+                <a href="#">女装/搭配</a>
+                <a href="#">男士/风尚</a>
+                <a href="#">婚礼</a>
+                <a href="#">平面</a>
+                <a href="#">工业设计</a>
+                <a href="#"><b>兴趣/生活 »</b></a>
+              </div>
+              <div class="bottom-part">
+                <i class="pin-icon sprite_icon"></i>
+                <a href="#">活动</a>
+                <span class="dot">·</span>
+                <a href="#">周刊</a>
+                <span class="dot">·</span>
+                <a href="#">关于</a>
+                <span class="dot">·</span>
+                <a href="#">反馈</a>
+                <span class="dot">·</span>
+                <a href="#">博客</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="header-user">
+          <a href="#" class="register">注册</a>
+          <a href="#" class="login">登录</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="banner">
+
+<div class="search4city">
+    <div class="citySelect">
+        <span class="cityName">北京</span>
+        <i class="iconDown"></i>
+        <i class="line"></i>
+    </div>
+
+    <div class="dropDown">
+        <div class="dropProv">
+            <ul class="dropProvUl dropUl"></ul>
+        </div>
+        <div class="dropCity">
+            <ul class="dropCityUl dropUl"></ul>
+        </div>
+    </div>
+</div>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="static/citySelect.js"></script>
+
+<div>
+        <form action="#">
+          <input type="text" class="search-text" placeholder="搜索工作岗位">
+          <nobr><a href="#" class="search-btn sprite_icon"></a>
+              <button>搜索</button></nobr>
+        </form>
+      </div>
+      <p class="search-hot">热门搜索：<a href="#">产品经理</a></p>
+    </div>
+
+    </header>
+
+
+<footer class="footer" id="footer">
+  <div class="footer-column__wrapper">
+      <div class="footer-column">
+        <a href="#" class="title">求职宝首页</a>
+      </div>
+      <div class="footer-column">
+        <a href="https://github.com/cocofantuan" class="title">联系与合作</a>
+        <a href="https://github.com/voeth">联系我们</a>
+        <a href="https://github.com/chenting19">用户反馈</a>
+      </div>
+      <div class="footer-column">
+        <a href="#" class="title">移动客户端</a>
+        <a href="#">求职宝 iPhone 版</a>
+        <a href="#">求职宝 Android 版</a>
+        <a href="#">求职宝 HD</a>
+      </div>
+      <div class="footer-column footer-followus">
+        <a href="#" class="title">关注我们</a>
+        <a href="#">新浪微博：@求职宝网</a>
+        <a href="#">官方 QQ：956749566</a>
+        <a href="#" class="weixin">官方微信：956749566</a>
+      </div>
+  </div>
+    <div class="footer-copyright">
+      <p>© job seaker 求职宝有限公司<span class="divider">|</span>求职宝官方网站</p>
+    </div>
+</footer>
+
+  <div class="elevator-wrap">
+    <a href="javascript:;" id="elevator"></a>
+    <a href="javascript:;" id="plus"></a>
+    <div id="plus_popup">
+      <a href="#"><i class="icon-upload"></i>添加采集</a>
+      <a href="#"><i class="icon-board"></i>添加画板</a>
+      <a href="#"><i class="icon-tool"></i>安装采集工具</a>
+    </div>
+  </div>
+
+  <div class="user" id="user">
+    <div class="user-inner">
+      <img src="images/login_logo.png" alt="#" class="login-logo">
+      <div class="register">
+        <div class="holder">
+          <div class="with-line"><span>用第三方帐号注册求职宝</span></div>
+          <div class="buttons">
+            <a href="#" class="weibo"></a>
+            <a href="#" class="qq"></a>
+            <a href="#" class="weixin"></a>
+            <a href="#" class="douban"></a>
+          </div>
+          <a href="#" class="use-email">使用手机号/邮箱注册</a>
+        </div>
+        <div class="switch-login">已有帐号？<a href="#">登录到求职宝</a></div>
+      </div>
+      <div class="login">
+        <div class="holder">
+          <div class="with-line"><span>用第三方帐号登录求职宝</span></div>
+          <div class="buttons">
+            <a href="#" class="weibo"></a>
+            <a href="#" class="qq"></a>
+            <a href="#" class="weixin"></a>
+            <a href="#" class="douban"></a>
+            <a href="#" class="renren"></a>
+          </div>
+          <div class="with-line"><span>使用手机号/邮箱登录</span></div>
+          <div class="mail-login">
+            <input type="text" class="text" placeholder="输入手机号或者邮箱">
+            <input type="text" class="password" placeholder="密码">
+            <a href="#" class="login-up">登录</a>
+          </div>
+          <div class="switch-register clearfix">
+            <a href="#" class="forget">忘记密码»</a>
+            <p class="go-register">还没有求职宝帐号？<a href="#">点击注册»</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="close"><span></span></div>
+    </div>
+  </div>
+
+<script src="../static/jquery.js"></script>
+<script src="../static/script.js"></script>
+<script src="../static/vector.js"></script>
+    <p></p>
+        {% block body %}
+
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+    "salary": [
+        "23-24K",
+        "5-7K",
+        "7-14K",
+        "5-10K"
+    ],
+    "jobName": [
+        "\u9879\u76ee\u5408\u4f19\u4eba",
+        "\u5e02\u573a\u63a8\u5e7f\u7ecf\u7406",
+        "Java \u9ad8\u7ea7\u540e\u7aef\u5f00\u53d1\u5de5\u7a0b\u5e08",
+        "\u5065\u8eab\u6559\u7ec3"
+    ],
+    "education": [
+        "\u672c\u79d1",
+        "\u672c\u79d1",
+        "\u672c\u79d1",
+        "\u9ad8\u4e2d"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1\u5e74\u4ee5\u5185",
+        "3-5\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650"
+    ]
+}

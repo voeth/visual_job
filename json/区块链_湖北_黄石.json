@@ -1,0 +1,18 @@
+{
+    "salary": [
+        "10-15K",
+        "10-20K"
+    ],
+    "jobName": [
+        "\u7f51\u7edc\u8425\u9500\u63a8\u5e7f",
+        "\u8fd0\u7ef4\u5f00\u53d1\u5de5\u7a0b\u5e08"
+    ],
+    "education": [
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u5927\u4e13"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "3-5\u5e74"
+    ]
+}

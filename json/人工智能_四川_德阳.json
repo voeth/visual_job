@@ -1,0 +1,46 @@
+{
+    "salary": [
+        "10-15K",
+        "5-7K",
+        "4-9K",
+        "4-9K",
+        "3-4K",
+        "5-10K",
+        "4-5K",
+        "3-5K",
+        "5-8K"
+    ],
+    "jobName": [
+        "\u4ea7\u54c1\u7ecf\u7406",
+        "\u8bed\u6587\u6559\u5e08",
+        "\u6559\u5e08",
+        "\u8bfe\u7a0b\u987e\u95ee",
+        "\u8bbe\u8ba1\u5236\u4f5c",
+        "\u5e02\u573a\u9500\u552e",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08",
+        "\u7f8e\u5de5\u8bbe\u8ba1"
+    ],
+    "education": [
+        "\u672c\u79d1",
+        "\u672c\u79d1",
+        "\u5927\u4e13",
+        "\u5927\u4e13",
+        "\u5927\u4e13",
+        "\u4e2d\u4e13/\u4e2d\u6280",
+        "\u5927\u4e13",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u672c\u79d1"
+    ],
+    "experience": [
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u5e94\u5c4a\u751f",
+        "1\u5e74\u4ee5\u5185",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "1\u5e74\u4ee5\u5185",
+        "1\u5e74\u4ee5\u5185",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650"
+    ]
+}

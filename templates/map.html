@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>地图结果如下：</title>
+    </head>
+    <body>
+        <p>{{ the_map }}</p>
+        <form action="/visual" method="POST">
+            <input type='text' name='keyword'>
+            <p>
+
+                省份：<select name='province'>
+                <option value='广东'>广东</option>
+                </select>
+
+
+                城市：<select name='city'>
+                <option value='广州'>广州</option>
+                </select>
+            </p>
+            <input type='submit' value='submit'>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "salary": [
+        "7-8K",
+        "25-50K",
+        "2-5K"
+    ],
+    "jobName": [
+        "\u8bbe\u8ba1",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08",
+        "\u5e73\u9762\u8bbe\u8ba1\u5e08"
+    ],
+    "education": [
+        "\u9ad8\u4e2d",
+        "\u5b66\u5386\u4e0d\u9650",
+        "\u9ad8\u4e2d"
+    ],
+    "experience": [
+        "3-5\u5e74",
+        "\u7ecf\u9a8c\u4e0d\u9650",
+        "\u7ecf\u9a8c\u4e0d\u9650"
+    ]
+}
