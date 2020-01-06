@@ -15,7 +15,7 @@ http://mengzhilang.pythonanywhere.com/ （免费的服务器，如果无人工�
 ### 文件目录描述
 
 - main.py 为主程序文件，负责数据流传输、网页路由跳转。
-- visualData.py 为模块文件，负责统计与绘图。
+- visualData.py 为模块文件，负责统计与绘图，项目初始还用于爬取数据
 - static templates 则是flask常见的放css和js、html网页模板的文件夹了，templates还放了pyecharts规定的一些模块文件，static放了bootstrap的模块文件
 - json 专门放已经从boss直聘爬取了全国293地级市、4个直辖市的招聘数据所生成的json文件，但由于网络与程序进程的问题，只生成了922个文件，不过热门城市的数据都已经爬取成功了且boss直聘还没有西藏、台湾、香港、澳门、南沙群岛的数据，所以所采集的数据集还是具有代表性的
 ```
